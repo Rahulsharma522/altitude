@@ -1,0 +1,197 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  background-color: #4e5266;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #4e5266;
+  padding: 60px 170px;
+}
+.header-heading {
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+.span {
+  color: #a7a9b3;
+  cursor: pointer;
+}
+.nav li {
+  display: inline-block;
+  color: white;
+  font-size: 15px;
+  padding-right: 10px;
+  cursor: pointer;
+} 
+.section-1{
+    margin: 0 auto;
+    text-align: center;
+    width: 1000px;
+    padding: 20px 0;
+   background-color: #FFFFFF;
+}
+.section-heading{
+    text-align: center;
+    font-size: 35px;
+}
+.section-para{
+    color: #a7a9b3;
+    padding: 10px 20px;
+}
+.section-img{
+    padding-top: 30px;
+    width: 800px;
+}
+.section-para1{
+    text-align: justify;
+    color: #a7a9b3;
+    padding: 20px 50px;
+}
+.section2-heading{
+    padding-right:15em;
+    font-size: 35px;
+}
+.section2-para{
+    text-align: justify;
+    color: #a7a9b3;
+    padding: 20px 50px;
+}
+.section3-heading{
+    padding-right:20em;
+    color:#434B56;
+    font-size: 30px;
+}
+.footer-div{
+    padding: 60px 70px;
+    display: flex;
+    background-color: #575B72;
+    justify-content: space-between;
+   
+}

@@ -150,7 +150,10 @@ table {
   padding-right: 10px;
   cursor: pointer;
 } 
-
+a{
+  text-decoration: none;
+  color:white;
+}
 .baner-button{
     border-radius: 30%;
     background-color:#5AB7BD;
@@ -304,7 +307,7 @@ table {
   justify-content: center;
   margin: 0 auto;
   padding: 20px 0;
-  background-color: yellow;
+  background-color: #FED586;
 }
 .section3-div{
   width: 600px;
@@ -344,4 +347,14 @@ table {
 }
 .imge2-s4 {
   height: 200px;
+}
+.section-five {
+  text-align: center;
+  background-color: #4CABB1;
+  width: 1000px;
+  margin: 0 auto;
+}
+.mail-input{
+  width: 200px;
+  border-radius: 10px;
 }
