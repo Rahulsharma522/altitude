@@ -189,9 +189,42 @@ table {
     font-size: 30px;
 }
 .footer-div{
-    padding: 60px 70px;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 60px 0px;
     display: flex;
     background-color: #575B72;
-    justify-content: space-between;
+    justify-content:center;
    
+}
+.footer-section{
+    width: 200px;
+    text-align: center;
+
+}
+.footer-heading{
+    color:white;
+  
+}
+.vertical{
+    border: 0.5px solid #A1A3AE;
+}
+a{
+  text-decoration: none;
+  color:#A1A3AE;
+}
+.footer-para{
+    padding: 6px 0px;
+    color:#A1A3AE;
+}
+.text {
+  padding-top: 20px;
+}
+.footer-section3{
+  width: 1000px;
+    margin: 0 auto;
+    padding: 15px 0px;
+    text-align: center;
+  background-color: #575B72;
+  color:#A1A3AE;
 }
